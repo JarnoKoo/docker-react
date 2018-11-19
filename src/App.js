@@ -20,6 +20,7 @@ class App extends Component {
             Opi ymmärtämään Reactia!
           </a>
           <p> ... sekä kaikkea muuta! Minä olen muutettu <i>teksti!</i></p>
+          <p> ... sekä kaikkea muuta! Minä olen muutettu <i>teksti!</i></p>
         </header>
       </div>
     );
