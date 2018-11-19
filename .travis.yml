@@ -7,4 +7,16 @@ before_install:
 
 script:
   - docker run jarnokoo/docker-react npm run test -- --coverage
-  
+
+deploy:
+  provider: elasticbeanstalk
+  region: "eu-west-1"
+  app: "docker-react"
+  env: "DockerReact"
+  bucket_name: "elasticbeanstalk-eu-west-1-753218404523"
+  bucket_path: "docker-react"
+  on:
+    branch: master
+  access_key:id: $AWS_ACCESS_KEY
+  secret_access_key:
+    secure: "$AWS_SECRET_KEY"
