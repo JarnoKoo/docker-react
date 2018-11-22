@@ -9,17 +9,10 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Muokkaa <code>src/App.js</code> ja tallenna.
+            Olen onnistunut tuotantoympäristö ja selvisin testauksesta!
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Opi ymmärtämään Reactia!
-          </a>
-          <p> ... sekä kaikkea muuta! Minä olen muutettu Docker React sovellus!</p>
+         
+          <p> ... sekä kaikkea muuta! Minä olen myös Docker React sovellus!</p>
           
         </header>
       </div>
