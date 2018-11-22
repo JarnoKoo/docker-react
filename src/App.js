@@ -13,6 +13,8 @@ class App extends Component {
           </p>
          
           <p> ... sekä kaikkea muuta! Minä olen myös Docker React sovellus!</p>
+
+          <p> Muutettu #feature-branchin kautta</p>
           
         </header>
       </div>
